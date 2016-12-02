@@ -83,3 +83,9 @@ Just creates a sample configuration ( like the one in the `sample` directory )
 |---|---|---|---|
 |map1|value 1 := 0|value 2 := 1|
 |map2|value 1 := 1|value 2 := 0|
+
+## History
+
+|Version|Contributors|Changes|
+|---|---|---|
+|20161202|S. Andres|Initial code|
