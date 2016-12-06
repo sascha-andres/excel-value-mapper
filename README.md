@@ -88,4 +88,5 @@ Just creates a sample configuration ( like the one in the `sample` directory )
 
 |Version|Contributors|Changes|
 |---|---|---|
+|20161206|S. Andres|Coluimn range support|
 |20161202|S. Andres|Initial code|
