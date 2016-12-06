@@ -39,8 +39,8 @@ namespace ExcelValueMapper.Configuration {
           System.Console.WriteLine( $"WARNING: {columnValue} seems to be a range but {matchedResult.Groups["to"].Value} is not parsable" );
           yield break;
         }
-        if (to >= from) {
-          System.Console.WriteLine( $"WARNING: {to} is >= {from}, dropping" );
+        if (to <= from) {
+          System.Console.WriteLine( $"WARNING: {to} is <= {from}, dropping" );
           yield break;
         }
         for ( int i = from; i <= to; i++ ) {

@@ -14,7 +14,5 @@ MapForColumn:
   - 1
   - 2
   map2:
-  - 3
-  - 4
-  - 5
+  - 3-5
 MapWorksheet: 1
